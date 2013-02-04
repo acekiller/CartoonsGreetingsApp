@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D650376E16BF295600D04DF3 /* cartoons.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D650376D16BF295600D04DF3 /* cartoons.jpg */; };
 		D66DB6D916BFB8C000823FA6 /* CGRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D66DB6D016BFB8C000823FA6 /* CGRAppDelegate.m */; };
-		D66DB6DA16BFB8C000823FA6 /* CGRCharactersList.m in Sources */ = {isa = PBXBuildFile; fileRef = D66DB6D216BFB8C000823FA6 /* CGRCharactersList.m */; };
 		D66DB6DB16BFB8C000823FA6 /* CGRCharactersListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D66DB6D416BFB8C000823FA6 /* CGRCharactersListTableViewController.m */; };
 		D66DB6DC16BFB8C000823FA6 /* CGRCharacterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D66DB6D616BFB8C000823FA6 /* CGRCharacterViewController.m */; };
 		D66DB6DD16BFB8C000823FA6 /* CGRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D66DB6D816BFB8C000823FA6 /* CGRViewController.m */; };
-		D6C2800316BAF2A8008BB587 /* Salad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6C2800216BAF2A8008BB587 /* Salad.jpg */; };
-		D6C2800616BAF2FC008BB587 /* Ned.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6C2800416BAF2FB008BB587 /* Ned.jpg */; };
-		D6C2800716BAF2FC008BB587 /* Popeye.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6C2800516BAF2FB008BB587 /* Popeye.jpg */; };
+		D6B23F9A16BFC93A00631AAD /* cartoons.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6B23F9616BFC93A00631AAD /* cartoons.jpg */; };
+		D6B23F9B16BFC93A00631AAD /* Ned.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6B23F9716BFC93A00631AAD /* Ned.jpg */; };
+		D6B23F9C16BFC93A00631AAD /* Popeye.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6B23F9816BFC93A00631AAD /* Popeye.jpg */; };
+		D6B23F9D16BFC93A00631AAD /* Salad.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D6B23F9916BFC93A00631AAD /* Salad.jpg */; };
+		D6B23FA016BFC95400631AAD /* CharactersList.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6B23F9F16BFC95400631AAD /* CharactersList.plist */; };
 		D6F15F1216B863F700819583 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F15F1116B863F700819583 /* UIKit.framework */; };
 		D6F15F1416B863F700819583 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F15F1316B863F700819583 /* Foundation.framework */; };
 		D6F15F1616B863F700819583 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F15F1516B863F700819583 /* CoreGraphics.framework */; };
@@ -43,20 +43,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D650376D16BF295600D04DF3 /* cartoons.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cartoons.jpg; path = Images/cartoons.jpg; sourceTree = "<group>"; };
 		D66DB6CF16BFB8C000823FA6 /* CGRAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGRAppDelegate.h; path = Classes/CGRAppDelegate.h; sourceTree = "<group>"; };
 		D66DB6D016BFB8C000823FA6 /* CGRAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CGRAppDelegate.m; path = Classes/CGRAppDelegate.m; sourceTree = "<group>"; };
-		D66DB6D116BFB8C000823FA6 /* CGRCharactersList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGRCharactersList.h; path = Classes/CGRCharactersList.h; sourceTree = "<group>"; };
-		D66DB6D216BFB8C000823FA6 /* CGRCharactersList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CGRCharactersList.m; path = Classes/CGRCharactersList.m; sourceTree = "<group>"; };
 		D66DB6D316BFB8C000823FA6 /* CGRCharactersListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGRCharactersListTableViewController.h; path = Classes/CGRCharactersListTableViewController.h; sourceTree = "<group>"; };
 		D66DB6D416BFB8C000823FA6 /* CGRCharactersListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CGRCharactersListTableViewController.m; path = Classes/CGRCharactersListTableViewController.m; sourceTree = "<group>"; };
 		D66DB6D516BFB8C000823FA6 /* CGRCharacterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGRCharacterViewController.h; path = Classes/CGRCharacterViewController.h; sourceTree = "<group>"; };
 		D66DB6D616BFB8C000823FA6 /* CGRCharacterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CGRCharacterViewController.m; path = Classes/CGRCharacterViewController.m; sourceTree = "<group>"; };
 		D66DB6D716BFB8C000823FA6 /* CGRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CGRViewController.h; path = Classes/CGRViewController.h; sourceTree = "<group>"; };
 		D66DB6D816BFB8C000823FA6 /* CGRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CGRViewController.m; path = Classes/CGRViewController.m; sourceTree = "<group>"; };
-		D6C2800216BAF2A8008BB587 /* Salad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Salad.jpg; path = Images/Salad.jpg; sourceTree = "<group>"; };
-		D6C2800416BAF2FB008BB587 /* Ned.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ned.jpg; path = Images/Ned.jpg; sourceTree = "<group>"; };
-		D6C2800516BAF2FB008BB587 /* Popeye.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Popeye.jpg; path = Images/Popeye.jpg; sourceTree = "<group>"; };
+		D6B23F9616BFC93A00631AAD /* cartoons.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cartoons.jpg; path = Resources/Images/cartoons.jpg; sourceTree = "<group>"; };
+		D6B23F9716BFC93A00631AAD /* Ned.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Ned.jpg; path = Resources/Images/Ned.jpg; sourceTree = "<group>"; };
+		D6B23F9816BFC93A00631AAD /* Popeye.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Popeye.jpg; path = Resources/Images/Popeye.jpg; sourceTree = "<group>"; };
+		D6B23F9916BFC93A00631AAD /* Salad.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Salad.jpg; path = Resources/Images/Salad.jpg; sourceTree = "<group>"; };
+		D6B23F9F16BFC95400631AAD /* CharactersList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = CharactersList.plist; path = Resources/CharactersList.plist; sourceTree = "<group>"; };
 		D6F15F0D16B863F700819583 /* CartoonsGreetings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CartoonsGreetings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6F15F1116B863F700819583 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		D6F15F1316B863F700819583 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -101,13 +100,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D6B23F9E16BFC94300631AAD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D6B23F9F16BFC95400631AAD /* CharactersList.plist */,
+				D6C2800116BAF291008BB587 /* Images */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		D6C2800116BAF291008BB587 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				D650376D16BF295600D04DF3 /* cartoons.jpg */,
-				D6C2800416BAF2FB008BB587 /* Ned.jpg */,
-				D6C2800516BAF2FB008BB587 /* Popeye.jpg */,
-				D6C2800216BAF2A8008BB587 /* Salad.jpg */,
+				D6B23F9616BFC93A00631AAD /* cartoons.jpg */,
+				D6B23F9716BFC93A00631AAD /* Ned.jpg */,
+				D6B23F9816BFC93A00631AAD /* Popeye.jpg */,
+				D6B23F9916BFC93A00631AAD /* Salad.jpg */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -147,7 +155,6 @@
 			children = (
 				D6F15F2916B863F700819583 /* MainStoryboard.storyboard */,
 				D6F15F4C16B864C300819583 /* Classes */,
-				D6C2800116BAF291008BB587 /* Images */,
 				D6F15F1816B863F700819583 /* Supporting Files */,
 			);
 			path = CartoonsGreetings;
@@ -191,14 +198,13 @@
 			children = (
 				D66DB6CF16BFB8C000823FA6 /* CGRAppDelegate.h */,
 				D66DB6D016BFB8C000823FA6 /* CGRAppDelegate.m */,
-				D66DB6D116BFB8C000823FA6 /* CGRCharactersList.h */,
-				D66DB6D216BFB8C000823FA6 /* CGRCharactersList.m */,
 				D66DB6D316BFB8C000823FA6 /* CGRCharactersListTableViewController.h */,
 				D66DB6D416BFB8C000823FA6 /* CGRCharactersListTableViewController.m */,
 				D66DB6D516BFB8C000823FA6 /* CGRCharacterViewController.h */,
 				D66DB6D616BFB8C000823FA6 /* CGRCharacterViewController.m */,
 				D66DB6D716BFB8C000823FA6 /* CGRViewController.h */,
 				D66DB6D816BFB8C000823FA6 /* CGRViewController.m */,
+				D6B23F9E16BFC94300631AAD /* Resources */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -280,10 +286,11 @@
 				D6F15F2616B863F700819583 /* Default@2x.png in Resources */,
 				D6F15F2816B863F700819583 /* Default-568h@2x.png in Resources */,
 				D6F15F2B16B863F700819583 /* MainStoryboard.storyboard in Resources */,
-				D6C2800316BAF2A8008BB587 /* Salad.jpg in Resources */,
-				D6C2800616BAF2FC008BB587 /* Ned.jpg in Resources */,
-				D6C2800716BAF2FC008BB587 /* Popeye.jpg in Resources */,
-				D650376E16BF295600D04DF3 /* cartoons.jpg in Resources */,
+				D6B23F9A16BFC93A00631AAD /* cartoons.jpg in Resources */,
+				D6B23F9B16BFC93A00631AAD /* Ned.jpg in Resources */,
+				D6B23F9C16BFC93A00631AAD /* Popeye.jpg in Resources */,
+				D6B23F9D16BFC93A00631AAD /* Salad.jpg in Resources */,
+				D6B23FA016BFC95400631AAD /* CharactersList.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,7 +327,6 @@
 			files = (
 				D6F15F1E16B863F700819583 /* main.m in Sources */,
 				D66DB6D916BFB8C000823FA6 /* CGRAppDelegate.m in Sources */,
-				D66DB6DA16BFB8C000823FA6 /* CGRCharactersList.m in Sources */,
 				D66DB6DB16BFB8C000823FA6 /* CGRCharactersListTableViewController.m in Sources */,
 				D66DB6DC16BFB8C000823FA6 /* CGRCharacterViewController.m in Sources */,
 				D66DB6DD16BFB8C000823FA6 /* CGRViewController.m in Sources */,

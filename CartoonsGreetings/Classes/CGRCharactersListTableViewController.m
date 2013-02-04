@@ -6,10 +6,11 @@
 //  Copyright (c) 2013 ate. All rights reserved.
 //
 
-//  chiamo qui l'array di personaggi. e ad ogni click inizializzo l'oggetto appropriato.
+//  l'array di personaggi lo chiamo qui. e ad ogni click inizializzo l'oggetto appropriato.
+//  non è array oggetti!
+
 
 #import "CGRCharactersListTableViewController.h"
-#import "CGRCharactersList.h"
 #import "CGRCharacterViewController.h"
 #import "CGRViewController.h"
 
@@ -25,7 +26,7 @@
 {
     self = [super initWithStyle:style];
     if (self) {
-
+        
         // Custom initialization
     }
     return self;
@@ -35,15 +36,15 @@
 
 - (void)viewDidLoad
 {
+    self.title = @"Available Characters"; //va bene impostare il titolo qui?
     
-    self.title=@"Available Characters";
+    self.CharactersData = [NSArray arrayWithContentsOfFile:[
+                                                            [NSBundle mainBundle] pathForResource:@"CharactersList"
+                                                            ofType:@"plist"]];
     
-    CGRCharactersList * CharactersListInstance =[[CGRCharactersList alloc] init];
-    self.CharactersData= [CharactersListInstance initializeCharactersList];
-
     
     [super viewDidLoad];
-
+    
 }
 
 
@@ -59,7 +60,7 @@
 {
 #warning Potentially incomplete method implementation.
     // Return the number of sections.
-    return 1; 
+    return 1; // o 0??
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
@@ -76,7 +77,7 @@
     if (cell == nil) {
         cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault  reuseIdentifier:MyIdentifier];
     }
-
+    
     cell.textLabel.text = [[self.CharactersData objectAtIndex: indexPath.row] objectForKey:@"Name"];
     return cell;
 }
@@ -84,7 +85,7 @@
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     
     [super prepareForSegue:segue sender:sender];
-   
+    
     
     NSIndexPath *path = [self.tableView indexPathForSelectedRow];
     
@@ -98,15 +99,17 @@
         nameToGreet=[[self.CharactersData objectAtIndex: path.row] objectForKey:@"Alternative" ];
     }
     greeting = [[NSString alloc]initWithFormat:@"%@ %@!",[[self.CharactersData objectAtIndex: path.row] objectForKey:@"Greeting"],nameToGreet];
-
+    
     NSString *imageName = [[self.CharactersData objectAtIndex: path.row] objectForKey:@"Portrait"];
     UIImage *portrait = [UIImage imageNamed:imageName];
-
-
+    
+    
     
     [segue.destinationViewController setCharacterName:name];
     [segue.destinationViewController setCharacterGreeting:greeting];
     [segue.destinationViewController setCharacterPortrait:portrait];
+    
+
     
 }
 
@@ -117,7 +120,7 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [self performSegueWithIdentifier:@"characterSegue" sender:nil];
-
+    
 }
 
 @end
