@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Alternative</key>
+		<string>my dear</string>
+		<key>Name</key>
+		<string>Ned Flanders</string>
+		<key>Greeting</key>
+		<string>Hi-diddly-ho</string>
+		<key>Portrait</key>
+		<string>Ned.jpg</string>
+	</dict>
+	<dict>
+		<key>Alternative</key>
+		<string>youth</string>
+		<key>Name</key>
+		<string>Popeye</string>
+		<key>Greeting</key>
+		<string>Ahoy</string>
+		<key>Portrait</key>
+		<string>Popeye.jpg</string>
+	</dict>
+	<dict>
+		<key>Alternative</key>
+		<string>my little friend</string>
+		<key>Name</key>
+		<string>Salad Fingers</string>
+		<key>Greeting</key>
+		<string>Hello</string>
+		<key>Portrait</key>
+		<string>Salad.jpg</string>
+	</dict>
+</array>
+</plist>
